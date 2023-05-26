@@ -104,7 +104,7 @@ await Promise.all(
 );
 ```
 
-But data for react query is passed as a serialized variable which we hydrate React Query's `queryClient` with.
+No need to preload data for react query since we hydrate a variable passed from SSR:
 
 ```tsx
 <Hydrate state={window.__REACT_QUERY_INITIAL_QUERIES__}>
