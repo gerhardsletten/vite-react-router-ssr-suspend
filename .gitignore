@@ -1,0 +1,15 @@
+.idea/
+node_modules/
+dist/
+build
+*.iml
+typings.json
+typings/
+.env
+coverage
+.elasticbeanstalk/
+.idea
+node_modules
+.git
+cache
+stats.html
